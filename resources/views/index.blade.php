@@ -124,7 +124,7 @@
     <section class="w-100">
         <div class="row w-75 mx-auto" id="servicios-fila-1">
             <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
-                <img src="./img/maquinaria.jpg" alt="desarrollo" width="180" height="160" class="rounded">
+                <img id="imagen" src="./img/maquinaria.jpg" alt="desarrollo" width="180" height="160" class="rounded">
 
                 <div>
                     <h3 class="fs-5 mt-4 px-4 pb-1">Prestamos de maquinaria</h3>
@@ -134,7 +134,7 @@
             </div>
 
             <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
-                <img src="./img/agricultores.jpg" alt="concepto" width="180" height="160" class="rounded">
+                <img id="imagen" src="./img/agricultores.jpg" alt="concepto" width="180" height="160" class="rounded">
 
                 <div>
                     <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Agricultores expertos</h3>
@@ -145,7 +145,7 @@
 
         <div class="row w-75 mx-auto mb-5" id="servicios-fila-2">
             <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
-                <img src="./img/fertilizar.jpg" alt="comunicaciones" width="180" height="160" class="rounded">
+                <img id="imagen" src="./img/fertilizar.jpg" alt="comunicaciones" width="180" height="160" class="rounded">
 
                 <div>
                     <h3 class="fs-5 mt-4 px-4 pb-1">Fertilización con drones</h3>
@@ -154,7 +154,7 @@
             </div>
 
             <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
-                <img src="./img/veterinarios.jpg" alt="seo" width="180" height="160" class="rounded">
+                <img id="imagen" src="./img/veterinarios.jpg" alt="seo" width="180" height="160" class="rounded">
 
                 <div>
                     <h3 class="fs-5 mt-4 px-4 pb-1">Veterinarios expertos en ganaderia</h3>
@@ -237,7 +237,7 @@
         </div>
     </section>
     <div class="container text-center" id="equipo">
-        <img id="imagen" src="/img/clientes.jpg" height="400">
+        <img id="imagen" src="/img/clientes.jpg" height="200">
     </div>
     <br><br><br><br><br><br><br><br>
 
@@ -254,7 +254,7 @@
         </div>
     </section>
     <div class="container text-center" id="equipo">
-        <img id="imagen" src="/img/ganaderia.jpg" height="400">
+        <img id="imagen" src="/img/ganaderia.jpg" height="200">
     </div>
     <br><br><br><br><br><br><br><br>
 
@@ -271,7 +271,7 @@
         </div>
     </section>
     <div class="container text-center" id="equipo">
-        <img id="imagen" src="/img/cultivos.jpg" height="400">
+        <img id="imagen" src="/img/cultivos.jpg" height="200">
     </div>
     <br><br><br><br><br><br><br><br>
 
@@ -318,29 +318,29 @@
 
 
 
-            <form method="POST" data-netlify="true" action="#">
-                <div class="mb-3">
-                    <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com">
-                </div>
+
+            <div class="mb-3">
+                <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com">
+            </div>
 
 
-                <div class="mb-3">
-                    <input type="input" class="form-control" id="name" name="name" placeholder="John Doe">
-                </div>
+            <div class="mb-3">
+                <input type="input" class="form-control" id="name" name="name" placeholder="John Doe">
+            </div>
 
 
-                <div class="mb-3">
-                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono">
-                </div>
+            <div class="mb-3">
+                <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono">
+            </div>
 
-                <div class="mb-3">
-                    <textarea class="form-control" name="message" id="message" rows="4"></textarea>
-                </div>
+            <div class="mb-3">
+                <textarea class="form-control" name="message" id="message" rows="4"></textarea>
+            </div>
 
-                <div class="mb-3">
-                    <button type="submit" class=" btn btn-primary w-100 fs-5">Enviar Mensaje</button>
-                </div>
-            </form>
+            <div class="mb-3">
+                <button type="submit" class=" btn btn-primary w-100 fs-5">Enviar Mensaje</button>
+            </div>
+
 
         </div>
     </section>
